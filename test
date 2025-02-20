@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-		<title>Template</title>
+		<title>Test Page</title>
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<h1>Page Title</h1>
-		<br>
-		<h2>Subheading</h2>
-		<p>Body text</p>
-		<h2>Subheading</h2>
+		<h1>Test Page</h1>
+		<table>
+			<tr>
+				<th>Page Name</th>
+				<th>URL</th>
+				<th>Validation</th>
+			</tr>
+			<tr>
+				<td>Homepage</td>
+				<td>duff6221.github/index.html"</td>
+				<td>
+
 		<p>Body text</p>
 	</body>
 </html>
