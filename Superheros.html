@@ -4,20 +4,54 @@
         <title>Superheroes</title>
 
         <style>
+            h1 {
+                text-align: center;
+            }
+
+            table {
+                margin-left: auto;
+                margin-right: auto;
+                border-collapse: collapse;
+            }
+
             th {
                 color: rgb(0, 0, 0);
                 background-color: gray;
                 font-size: 18px;
             }
+
             img {
                 height: 100px;
             }
+
             td, th {
                 border: 2px solid black;
                 padding: 15px;
             }
-            table {
-                border-collapse: collapse;
+
+            .iron-man {
+                background-color: red;
+            }
+
+            .hulk {
+                background-color: green;
+            }
+
+            .thor {
+                background-color: #0000FF;
+            }
+
+            .captain-america {
+                background-color: #003366;
+            }
+
+            td, th {
+                text-align: center;
+            }
+
+            ul {
+                padding-left: 20px;
+                text-align: left;
             }
         </style>
     </head>
@@ -34,7 +68,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="iron-man">
                     <th>Iron Man</th>
                     <td>Tony&nbsp;Stark</td>
                     <td><a href="images/IronMan.jpg"><img src="images/IronMan.jpg" alt="Iron Man Pic"></a></td>
@@ -47,7 +81,7 @@
                         </ul>
                     </td>
                 </tr>
-                <tr>
+                <tr class="hulk">
                     <th>Hulk</th>
                     <td>Bruce&nbsp;Banner</td>
                     <td><a href="images/Incrediblehulk.jpg"><img src="images/Incrediblehulk.jpg" alt="Hulk Pic"></a></td>
@@ -67,7 +101,7 @@
                         </ul>
                     </td>
                 </tr>
-                <tr>
+                <tr class="thor">
                     <th>Thor: The God of Thunder</th>
                     <td>Thor&nbsp;Odinson</td>
                     <td><a href="images/facundo-moyano-thor-db.jpg"><img src="images/facundo-moyano-thor-db.jpg" alt="Thor Pic"></a></td>
@@ -86,7 +120,7 @@
                         </ul>
                     </td>
                 </tr>
-                <tr>
+                <tr class="captain-america">
                     <th>Captain America</th>
                     <td>Steve&nbsp;Rodgers</td>
                     <td><a href="images/0_RsMfuzE0ltprUgdg.png"><img src="images/0_RsMfuzE0ltprUgdg.png" alt="Captain America Pic"></a></td>
