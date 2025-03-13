@@ -1,0 +1,15 @@
+:root
+{
+    background-color: Red;
+    background-image: url("images/Example.png");
+    background-repeat: repeat;
+}
+@front-face
+{
+    front-family: coolfont;
+    src: url("fonts/coolfont.woff2")
+}
+h1
+{
+
+}
