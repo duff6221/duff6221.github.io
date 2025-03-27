@@ -1,15 +1,134 @@
-:root
-{
-    background-color: Red;
-    background-image: url("images/Example.png");
-    background-repeat: repeat;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-@front-face
-{
-    front-family: coolfont;
-    src: url("fonts/coolfont.woff2")
-}
-h1
-{
 
+@font-face {
+  font-family: 'ToxigenesisBD';
+  src: url('fonts/toxigenesis bd.otf') format('opentype');
+}
+
+body {
+  font-family: 'ToxigenesisBD', sans-serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 1.6; 
+  color: #333; 
+  background: linear-gradient(45deg, #ff4c4c, #f39c12); 
+  background-size: 200% 200%;
+  animation: backgroundFade 15s ease infinite;
+  padding: 20px;
+  margin: 0;
+}
+
+@keyframes backgroundFade {
+  0% {
+      background-position: 0% 0%;
+  }
+  50% {
+      background-position: 100% 100%;
+  }
+  100% {
+      background-position: 0% 0%;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #f39c12;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: 'Dig Dug', cursive;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2.2rem;
+  color: #f39c12;
+  font-family: 'Dig Dug', cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #000000;
+  line-height: 1.8;
+}
+
+ol {
+  margin-left: 20px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #f39c12;
+  border-radius: 8px;
+}
+
+.linkreturn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.linkreturn a {
+  color: #f39c12;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #f39c12;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.6);
+}
+
+button {
+  background-color: #f39c12;
+  color: #333;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-family: 'Dig Dug', cursive;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #e67e22;
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.glow-text {
+  color: #f39c12;
+  text-shadow: 0 0 10px #f39c12, 0 0 20px #f39c12, 0 0 30px #f39c12, 0 0 40px #e67e22;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+      text-shadow: 0 0 10px #f39c12, 0 0 20px #f39c12, 0 0 30px #f39c12, 0 0 40px #e67e22;
+  }
+  100% {
+      text-shadow: 0 0 20px #f39c12, 0 0 40px #f39c12, 0 0 60px #f39c12, 0 0 80px #e67e22;
+  }
 }
