@@ -19,21 +19,23 @@ img {
 }
 
 h1 {
-    color: #0400ff;
+    color: #d8bd26;
     font-size: 3em; 
     font-weight: bold; 
     text-decoration: underline;
     text-align: center; 
     margin-top: 20px; 
+    text-shadow: 2px 2px 3px black, -2px -2px 3px black, 2px -2px 3px black, -2px 2px 3px black;
 }
 
 h2 {
-    color: #0400ff; 
+    color: #d8bd26; 
     font-size: 2.5em; 
     font-weight: bold; 
     text-decoration: underline;
     margin-top: 20px; 
     text-align: left; 
+    text-shadow: 2px 2px 3px black, -2px -2px 3px black, 2px -2px 3px black, -2px 2px 3px black;
 }
 
 
@@ -51,7 +53,7 @@ a {
 }
 
 a:hover {
-    color: #bea722; 
+    color: #d1b203; 
     text-decoration: underline; 
 }
 
@@ -66,7 +68,7 @@ li {
 }
 
 li a {
-    color: #bea722; 
+    color: #1f1cc4; 
     text-decoration: none; 
 }
 
@@ -81,7 +83,7 @@ button {
 }
 
 button:hover {
-    background-color: #bea722; 
+    background-color: #d1b203; 
 }
 
 input, textarea {
