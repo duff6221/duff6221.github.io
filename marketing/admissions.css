@@ -1,0 +1,92 @@
+/* Base Styles */
+body {
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	background-color: #f4f4f4;
+	color: #333;
+	line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+	background-color: #003d73; /* UNC Navy */
+	color: #f0a800;            /* UNC Gold */
+	padding: 40px 20px;
+	text-align: center;
+  }
+  
+  /* Logo Styling */
+  header img.logo {
+	max-width: 200px;  /* Makes the logo smaller */
+	height: auto;      /* Maintains the aspect ratio */
+	display: block;
+	margin: 0 auto 20px; /* Centers the logo and adds space below it */
+  }
+  
+  /* Navigation */
+  nav {
+	background-color: #003d73;
+	text-align: center;
+	padding: 10px 0;
+  }
+  
+  nav a {
+	color: #f0a800;
+	text-decoration: none;
+	margin: 0 15px;
+	font-weight: bold;
+  }
+  
+  nav a:hover {
+	color: white;
+  }
+  
+  /* Main Content */
+  main {
+	padding: 20px;
+	max-width: 900px;
+	margin: auto;
+  }
+  
+  section {
+	margin-bottom: 40px;
+  }
+  
+  h2 {
+	color: #003d73;
+  }
+  
+  /* Footer */
+  footer {
+	background-color: #003d73;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	font-size: 0.9em;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+	/* Adjust layout for smaller screens */
+	header {
+	  padding: 20px 10px;
+	}
+  
+	h1 {
+	  font-size: 1.8em;
+	}
+  
+	nav a {
+	  font-size: 1.2em;
+	  margin: 0 10px;
+	}
+  
+	main {
+	  padding: 15px;
+	}
+  
+	footer {
+	  font-size: 0.8em;
+	}
+  }
+  
